@@ -10,21 +10,11 @@ permalink: /about/
 This is the blog for the technical parts of the WG5 group.
 
 # Join us or have more informations
-Join me on the following networks and/or websites:
-<!-- Social links -->
-
+Join me on the following networks and/or websites: <!-- Social links -->
 <ul class="list-inline text-center fa-3x">
   <li>
     <a rel="me" href="//github.com/EuRED">
       <i class="fa fa-github" aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
-<ul class="list-inline text-center">
-  <li>
-    <a href="//keybase.io/milanaryal/key.asc">
-      PGP: <code>C0D5 6A65 7B40 6CED 39AD A781 232A 0E96 122E AB4A</code>
     </a>
   </li>
 </ul>
