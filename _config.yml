@@ -45,30 +45,21 @@ baseurl: ""
 url: "http://milanaryal.com"
 
 # Site settings
-name:             Milan Aryal
-description:      "Livin' on the edge of web standards."
+name:             EuRED tech blog
+description:      "Reading experiences, database, TEI and so many things"
 icon:             "/assets/img/m-icon-white-on-blue.png"
 featured_image:   "/assets/img/home-bg.jpg"
 theme_color:      "#2196f3"
 author:
-  name:           Milan Aryal
-  email:          "considermilan@gmail.com"
-  uri:            "https://twitter.com/MilanAryal"
-  twitter:        MilanAryal
-  google_plus:    MilanAryal
-  github:         MilanAryal
-  keybase:        milanaryal
-  tumblr:         milanaryal
-  linkedin:       MilanAryal
-  facebook:       considermilan
-  fb_id:          100001982813077
-  street:         Chandragiri 23
-  locality:       Kathmandu
-  region:         Bagmati
-  country:        Nepal
-  postcode:       00977
-disqus_shortname: milanaryal
-google_cse_id:    "000254926668963224856:z4vgwqv7kla"
+  name:           Gautier Michelin
+  email:          "gm@ideesculture.com"
+  uri:            "https://twitter.com/gautiermichelin"
+  twitter:        gautiermichelin
+  github:         eured
+  street:         Campus Universitaire
+  locality:       Le Mans
+  country:        France
+  postcode:       72000
 
 # Google Analytics
 # !! Current Tracking ID only for milanaryal.com !!
