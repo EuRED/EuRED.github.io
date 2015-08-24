@@ -42,7 +42,7 @@ locale:        en_us
 baseurl: ""
 
 # URL of site, include http://, do not include a trailing slash
-url: "http://milanaryal.com"
+url: "http://eured.github.io"
 
 # Site settings
 name:             EuRED tech blog
