@@ -28,6 +28,7 @@ gems:
 # Conversion
 markdown:     kramdown
 kramdown:
+  input: GFM
   toc_levels: 1..3
 highlighter:  pygments
 
@@ -63,7 +64,7 @@ author:
 
 # Google Analytics
 # !! Current Tracking ID only for milanaryal.com !!
-google_analytics_id: "UA-42092423-1"
+google_analytics_id: 
 
 # Front matter defaults
 defaults:
