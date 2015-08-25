@@ -22,3 +22,42 @@ Element content is at the bottom of the page, it should be written in valid XML.
 ## Where to find some documentation
 
 [http://www.tei-c.org/Guidelines/Customization/odds.xml](http://www.tei-c.org/Guidelines/Customization/odds.xml)
+
+## How to write directly inside the ODD
+
+Some of the treatments cannot be easily defined inside ROMA, that's where a text editor is welcome.
+
+If you open your ODD inside a text editor, have a look at the declaration of a new attribute :
+
+````xml
+<elementSpec ident="readerStatus" ns="http://readingexp.univ-lemans.fr/tei" mode="add">
+    <desc/>
+    <classes>
+        <memberOf key="att.global"/>
+    </classes>
+    <content>
+        <rng:zeroOrMore>
+            <rng:choice>
+                <rng:attribute>
+                    <rng:anyName/>
+                </rng:attribute>
+                <rng:text/>
+                <rng:element>
+                    <rng:anyName/>
+                    <ref name="readerStatus"/>
+                </rng:element>
+            </rng:choice>
+        </rng:zeroOrMore>
+    </content>
+    <attList>
+        <attDef ident="ref" mode="add">
+            <desc>Reference</desc>
+            <datatype minOccurs="0" maxOccurs="1">
+                <rng:ref name="data.text"/>
+            </datatype>
+        </attDef>
+    </attList>
+</elementSpec>
+````
+
+This readerStatus element has its classes, contents and attributes defined here, and can contain itself (look <ref name="readerStatus"/> inside the content).
