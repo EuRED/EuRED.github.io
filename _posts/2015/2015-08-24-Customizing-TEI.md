@@ -7,13 +7,31 @@ featured_image: /uploads/2015/20150824-rosetta.jpg
 
 # Customizing TEI
 
-Here it comes, step by step process to customize TEI.
+Here it comes, step by step processes to customize TEI.
+
+## Add an element
 
 1. Go to [www.tei-c.org/Roma](http://www.tei-c.org/Roma)
 2. Upload a customization : ODD file (One Document Does it all)
 3. Click Start
 4. Click on **Add elements** tab
 5. Add all the elements you want to add
+
+## Add an attribute
+
+1. Go to [www.tei-c.org/Roma](http://www.tei-c.org/Roma)
+2. Upload a customization : ODD file (One Document Does it all)
+3. Click Start
+4. Click on **Add elements** tab
+5. To the right of your newly added element, you will find **Change attributes**
+6. Either click on **Add new attributes** or on the **name** of your newly added attribute if any
+7. Choose if it is **optional**
+8. **Contents** : which type, which quantity
+9. **Defaut value** if any
+10. **Closed list** and **list of values** if required
+11. Add some **description**
+12. **Save**
+13. **Save** (twice)
 
 ## What is really lackin here
 
