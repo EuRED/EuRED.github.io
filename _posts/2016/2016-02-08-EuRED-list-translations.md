@@ -1,9 +1,11 @@
 ---
-title: 'EuRED: lists translation'
-date: 2016-02-08T05:30:00.000Z
-last_modified_at: 2016-02-08T05:43:57.000Z
-featured_image: /uploads/2015/20150715--keyboard_w1200.jpg
+title: "EuRED: lists translation"
+date: {}
+last_modified_at: {}
+featured_image: "/uploads/2015/20150715--keyboard_w1200.jpg"
+published: true
 ---
+
 
 # EuRED : lists translation
 ## Inside CollectiveAccess
